@@ -1,0 +1,597 @@
+{
+  "name": "NovaTech Institute Student Support Chatbot Dataset",
+  "description": "Fictional conversational dataset for an NLP-based college student support chatbot.",
+  "institute": "NovaTech Institute of Technology",
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Hello there",
+        "Hey there",
+        "Can you help me?",
+        "I need some help",
+        "Can I ask you something?",
+        "I have a question",
+        "Are you available?",
+        "Hi chatbot",
+        "Hello assistant",
+        "Greetings",
+        "Anyone there?",
+        "Can you assist me?",
+        "I need information"
+      ],
+      "responses": [
+        "Hello! Welcome to NovaTech Institute. How can I help you?",
+        "Hi! I'm the NovaTech student support assistant. What would you like to know?",
+        "Hello! You can ask me about courses, admissions, fees, exams, hostel, library, and campus facilities."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "See you later",
+        "Talk to you later",
+        "I have to go",
+        "I am leaving",
+        "That's all",
+        "Nothing else",
+        "Thanks, bye",
+        "Bye for now",
+        "Catch you later",
+        "See you soon",
+        "I am done",
+        "End the conversation",
+        "I will come back later",
+        "Have a good day",
+        "Take care",
+        "Okay bye",
+        "Good night"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Feel free to return whenever you need help.",
+        "Take care! Good luck with your studies."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate it",
+        "That was helpful",
+        "You helped me",
+        "Thanks for the information",
+        "Thank you for your help",
+        "Much appreciated",
+        "Great, thanks",
+        "Okay, thank you",
+        "Thanks for explaining",
+        "I am grateful",
+        "That helps a lot",
+        "Thank you for answering",
+        "Thanks for your support",
+        "You've been helpful",
+        "Perfect, thank you",
+        "Many thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "You're welcome. Let me know if you have another question."
+      ]
+    },
+    {
+      "tag": "college_timings",
+      "patterns": [
+        "What are the college timings?",
+    "What are the working hours of NovaTech?",
+    "When does the college open?",
+    "When does the college close?",
+    "What time does NovaTech start?",
+    "What time does NovaTech finish?",
+    "What are the daily college hours?",
+    "What are the class timings?",
+    "When do classes begin?",
+    "When do classes end?",
+    "What time should students report to college?",
+    "Is the college open on Saturdays?",
+    "What are the Saturday timings?",
+    "What are the weekday college timings?",
+    "What are the working hours from Monday to Friday?",
+    "When can students come to college?",
+    "What time does the college operate?",
+    "What is the daily schedule of the college?",
+    "What time does NovaTech operate?",
+    "Tell me the college working schedule"
+      ],
+      "responses": [
+        "NovaTech Institute operates from 9:00 AM to 5:00 PM Monday to Friday. Saturday hours are 9:00 AM to 1:00 PM.",
+        "Regular classes run from 9:00 AM to 5:00 PM on weekdays. On Saturdays, the institute closes at 1:00 PM.",
+        "The usual college hours are 9 AM–5 PM from Monday to Friday and 9 AM–1 PM on Saturday."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+          "What courses are offered?",
+          "What courses does NovaTech offer?",
+          "Tell me about the courses",
+          "Tell me about the courses offered",
+          "Give me course details",
+          "I want course details",
+          "Can you give me information about the courses?",
+          "What programs are available?",
+          "What programs does NovaTech offer?",
+          "Which programs are available at NovaTech?",
+          "What can I study at NovaTech?",
+          "Which courses can I study?",
+          "What can students study at NovaTech?",
+          "Tell me about the B.Tech programs",
+          "What B.Tech programs are offered?",
+          "Which B.Tech courses are available?",
+          "What degree programs does the college have?",
+          "What academic programs are available?",
+          "I want information about the courses",
+          "What are the available courses at the college?"
+      ],  
+      "responses": [
+        "NovaTech Institute offers B.Tech programs in Computer Science and Engineering, Artificial Intelligence and Machine Learning, Electronics and Communication Engineering, and Information Science and Engineering.",
+        "Our main undergraduate programs are CSE, AI & ML, ECE, and Information Science and Engineering.",
+        "You can choose from four B.Tech programs at NovaTech: CSE, AI & ML, ECE, and ISE."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+         "How can I get admission to NovaTech?",
+          "How do I get admission to the college?",
+          "Tell me about admission to NovaTech",
+          "I want information about college admission",
+          "When can I apply for admission?",
+          "When does admission start?",
+          "When is the admission process conducted?",
+          "How can I apply for a B.Tech seat?",
+          "What is the admission procedure at NovaTech?",
+          "What is the process for getting admission?",
+          "How do I join NovaTech Institute?",
+          "How can I secure admission to NovaTech?",
+          "I want to join NovaTech, what should I do?",
+          "What are the steps for college admission?",
+          "Where can I apply for admission?",
+          "Is admission open for B.Tech programs?",
+          "How do I apply to NovaTech Institute?",
+          "Can I get admission information?",
+          "What should I know about admission?",
+          "Tell me how college admissions work"
+      ],
+      "responses": [
+        "NovaTech's admission process has three main steps: check eligibility, submit the application, and complete document verification.",
+        "Admissions are conducted for the four B.Tech programs. Eligible applicants submit an online application followed by document verification and fee payment.",
+        "To join NovaTech, first confirm your eligibility, complete the application form, attend the required selection process, and finish document verification."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "What is the eligibility criteria?",
+        "Who can apply?",
+        "What are the eligibility requirements?",
+        "Am I eligible for admission?",
+        "What qualifications are required?",
+        "What marks are needed?",
+        "What percentage is required?",
+        "What are the admission eligibility rules?",
+        "Who is eligible for this course?",
+        "What academic qualification do I need?",
+        "What are the minimum marks required?",
+        "Can I apply with my marks?",
+        "What subjects should I have studied?",
+        "What is the minimum qualification?",
+        "What eligibility do I need for admission?",
+        "Do I meet the eligibility criteria?",
+        "What are the requirements to apply?",
+        "What qualification is necessary?",
+        "Is there a minimum percentage?",
+        "Tell me the eligibility conditions"
+      ],
+      "responses": [
+        "For B.Tech admission, applicants must have completed 12th grade or an equivalent qualification with Physics and Mathematics, along with one approved third subject.",
+        "NovaTech requires applicants to have completed higher secondary education with Physics and Mathematics as core subjects.",
+        "The general B.Tech eligibility requirement is completion of 12th grade or equivalent with Physics and Mathematics. Additional admission-route requirements may apply."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How much is the college fee?",
+        "What are the tuition fees?",
+        "Tell me about the fees",
+        "How much does the course cost?",
+        "What is the fee structure?",
+        "How much do I have to pay?",
+        "What are the annual fees?",
+        "What is the tuition fee?",
+        "How much is the admission fee?",
+        "What are the college charges?",
+        "Can you tell me the fee details?",
+        "How much does studying here cost?",
+        "What is the semester fee?",
+        "Are there additional fees?",
+        "How much is the total fee?",
+        "What are the course charges?",
+        "Where can I find the fee structure?",
+        "What is the yearly college fee?",
+        "Tell me the tuition cost",
+        "How much should I pay for admission?"
+      ],
+      "responses": [
+        "The standard B.Tech tuition fee at NovaTech is 1,20,000 per academic year.",
+        "NovaTech's standard annual B.Tech tuition fee is 1.2 lakh. Hostel and some optional services are charged separately.",
+        "The regular academic fee is 1,20,000 per year for B.Tech programs. Additional charges may apply for hostel accommodation and selected services."
+      ]
+    },
+    {
+      "tag": "documents_required",
+      "patterns": [
+        "What documents are required?",
+        "Which documents do I need?",
+        "What should I bring for admission?",
+        "Tell me the required documents",
+        "What certificates are needed?",
+        "Which certificates should I submit?",
+        "What documents are needed for admission?",
+        "Do I need my marks card?",
+        "Do I need an ID proof?",
+        "What paperwork is required?",
+        "Which documents should I upload?",
+        "What should I submit during admission?",
+        "What documents are needed for registration?",
+        "Do I need my transfer certificate?",
+        "What certificates are required for joining?",
+        "What proof should I provide?",
+        "Can you list the admission documents?",
+        "Which original documents are needed?",
+        "What documents should students carry?",
+        "What paperwork do I need?"
+      ],
+      "responses": [
+        "For admission, bring your 10th and 12th marksheets, transfer certificate, identity proof, passport-size photographs, and entrance or eligibility documents if applicable.",
+        "The usual admission documents are academic marksheets, transfer certificate, ID proof, photographs, and applicable entrance examination documents.",
+        "Please prepare your academic certificates, transfer certificate, identity proof, photographs, and any documents required for your admission category."
+      ]
+    },
+    {
+      "tag": "application_process",
+      "patterns": [
+        "How do I apply?",
+        "How can I submit my application?",
+        "Where can I apply?",
+        "How do I register for admission?",
+        "What are the steps to apply?",
+        "How can I fill the application?",
+        "How do I complete registration?",
+        "Where is the application form?",
+        "How can I apply online?",
+        "How do I submit the admission form?",
+        "What is the application procedure?",
+        "Can I apply online?",
+        "How do I register for a course?",
+        "Where do I submit my application?",
+        "How can I start the admission application?",
+        "What should I do to apply?",
+        "How do I enroll?",
+        "How can I complete the admission form?",
+        "Tell me how to apply for a course",
+        "What is the registration procedure?"
+      ],
+      "responses": [
+        "To apply, create an applicant account, select your B.Tech program, complete the online form, upload the required documents, and submit the application fee.",
+        "The application process is online: register an account, enter your details, choose a course, upload documents, pay the application fee, and submit.",
+        "Start by creating an account on the NovaTech admission portal. Then complete the form, upload your documents, pay the application fee, and submit it."
+      ]
+    },
+    {
+      "tag": "exam_information",
+      "patterns": [
+        "When are the exams?",
+        "Tell me about the exam schedule",
+        "When is the next exam?",
+        "Where can I find the exam timetable?",
+        "What is the exam date?",
+        "When do semester exams start?",
+        "When will exams be conducted?",
+        "Tell me about upcoming exams",
+        "Where is the exam timetable?",
+        "When are the internal exams?",
+        "What are the semester exam dates?",
+        "How can I check my exam schedule?",
+        "When does the examination begin?",
+        "Is the exam timetable released?",
+        "Where can I see exam dates?",
+        "Tell me the examination schedule",
+        "When are final exams?",
+        "How do I get exam information?",
+        "What is the examination timetable?",
+        "When will the semester exams happen?"
+      ],
+      "responses": [
+        "NovaTech conducts internal assessments during the semester and end-semester examinations at the end of each term.",
+        "The exact examination timetable is published before each examination period. Internal tests and end-semester exams are held separately.",
+        "Exam dates vary by semester. Students can view the current timetable through the student portal once it is published."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "What is the attendance requirement?",
+        "How much attendance is required?",
+        "What is the minimum attendance?",
+        "How many classes can I miss?",
+        "What happens if my attendance is low?",
+        "Tell me about attendance rules",
+        "Is attendance compulsory?",
+        "How is attendance calculated?",
+        "What percentage attendance do I need?",
+        "Can I write exams with low attendance?",
+        "What are the attendance regulations?",
+        "How many days can I be absent?",
+        "What happens if I fall short of attendance?",
+        "Do I need 75 percent attendance?",
+        "What is the minimum class attendance?",
+        "Can attendance shortage be condoned?",
+        "How do I check my attendance?",
+        "Where can I see my attendance?",
+        "Are attendance rules strict?",
+        "Tell me the college attendance policy"
+      ],
+      "responses": [
+        "NovaTech requires students to maintain at least 75% attendance in each course.",
+        "Students should maintain a minimum of 75% attendance to remain eligible for regular academic participation and examinations.",
+        "The standard attendance requirement is 75% for each course. Students should monitor their attendance through the student portal."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities does the college have?",
+        "Tell me about the college facilities",
+        "Does the college have laboratories?",
+        "Are sports facilities available?",
+        "What facilities are available for students?",
+        "Does the college have a gym?",
+        "Is there a computer lab?",
+        "Does the college have Wi-Fi?",
+        "What student facilities are provided?",
+        "Are there recreational facilities?",
+        "Does the college have modern classrooms?",
+        "What labs are available?",
+        "Are there sports grounds?",
+        "Does the college have a cafeteria?",
+        "What amenities are available?",
+        "Tell me about campus facilities",
+        "What infrastructure does the college have?",
+        "Are there student activity facilities?",
+        "Does the campus have common areas?",
+        "What services are available on campus?"
+      ],
+      "responses": [
+        "NovaTech has computer and electronics laboratories, smart classrooms, a central library, sports facilities, a cafeteria, Wi-Fi, and student activity spaces.",
+        "Campus facilities include modern classrooms, department labs, sports areas, a cafeteria, Wi-Fi, library services, and common student spaces.",
+        "Students have access to academic labs, smart classrooms, library resources, sports facilities, campus Wi-Fi, and dining services."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Does the college have a library?",
+        "What are the library timings?",
+        "When is the library open?",
+        "Where is the library?",
+        "What services does the library provide?",
+        "Can students borrow books?",
+        "How many books can I borrow?",
+        "What are the library rules?",
+        "Can I access the library online?",
+        "Does the library have digital resources?",
+        "Is the library open on weekends?",
+        "What time does the library close?",
+        "How do I get a library card?",
+        "Can I use the library after class?",
+        "Are journals available in the library?",
+        "Does the library have computers?",
+        "How can I borrow a book?",
+        "Can students access e-books?",
+        "Tell me about the college library",
+        "What resources are available in the library?"
+      ],
+      "responses": [
+        "The NovaTech central library is open from 8:30 AM to 6:00 PM Monday to Saturday.",
+        "Students can use the central library from 8:30 AM to 6 PM on weekdays and Saturday.",
+        "The library provides textbooks, reference books, journals, e-books, and computer access. Its regular hours are 8:30 AM to 6 PM."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Does the college provide hostel facilities?",
+        "Is hostel accommodation available?",
+        "How can I apply for a hostel?",
+        "What is the hostel fee?",
+        "Tell me about the hostel",
+        "Are separate hostels available?",
+        "What are the hostel rules?",
+        "How do I get a hostel room?",
+        "Is hostel accommodation compulsory?",
+        "What facilities are available in the hostel?",
+        "Are hostel rooms available for first-year students?",
+        "How much does the hostel cost?",
+        "Where is the hostel?",
+        "What are the hostel timings?",
+        "Can I apply for hostel accommodation?",
+        "Is food provided in the hostel?",
+        "Does the hostel have Wi-Fi?",
+        "What documents are needed for hostel admission?",
+        "Tell me about hostel accommodation",
+        "Are there hostel vacancies?"
+      ],
+      "responses": [
+        "Yes. NovaTech provides separate hostel accommodation for male and female students.",
+        "The hostel provides furnished rooms, Wi-Fi, study areas, laundry facilities, and dining services.",
+        "Hostel accommodation is available on campus. Students can apply through the hostel office after receiving their admission confirmation."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Are scholarships available?",
+        "What scholarships can students get?",
+        "How can I apply for a scholarship?",
+        "Tell me about scholarships",
+        "What financial aid is available?",
+        "Who is eligible for scholarships?",
+        "Are there merit scholarships?",
+        "Are government scholarships available?",
+        "What scholarship schemes are offered?",
+        "How do I get financial assistance?",
+        "Where can I apply for scholarships?",
+        "What are the scholarship requirements?",
+        "Can students get fee assistance?",
+        "Are scholarships based on marks?",
+        "Is there a scholarship for economically weaker students?",
+        "What financial support does the college provide?",
+        "How can I find scholarship information?",
+        "When is the scholarship application deadline?",
+        "What documents are needed for scholarships?",
+        "Tell me about student financial aid"
+      ],
+      "responses": [
+        "NovaTech offers merit-based scholarships and need-based financial assistance to eligible students.",
+        "Students with strong academic performance may apply for the Merit Excellence Scholarship, while eligible students may also apply for need-based assistance.",
+        "Scholarship applications are reviewed based on academic performance and the eligibility criteria of the specific scholarship scheme."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?",
+        "What is the college phone number?",
+        "What is the college email?",
+        "How do I contact the admission office?",
+        "Give me the contact details",
+        "What is the official email address?",
+        "Can I call the college?",
+        "How can I reach the college office?",
+        "Where can I find the college contact number?",
+        "What is the admissions helpline?",
+        "How do I contact the administration?",
+        "Is there a student helpline?",
+        "What is the office phone number?",
+        "Can I email the college?",
+        "Who should I contact for admission?",
+        "Where can I get official contact information?",
+        "How do I reach the college administration?",
+        "What is the support number?",
+        "Tell me the college contact details",
+        "What is the official phone number?"
+      ],
+      "responses": [
+        "You can contact NovaTech's main office at +91 98765 43210.",
+        "The general contact number is +91 98765 43210, and the student support email is help@novatech.edu.",
+        "For general queries, call +91 98765 43210 or email help@novatech.edu."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+         "Where is NovaTech Institute located?",
+    "Where is the college located?",
+    "What is the location of NovaTech?",
+    "What is the address of NovaTech Institute?",
+    "Where can I find NovaTech?",
+    "Tell me about the campus",
+    "Tell me about your campus",
+    "Where is your campus?",
+    "Where is the NovaTech campus?",
+    "Where is the college campus?",
+    "Can you tell me about the campus location?",
+    "Where can I find the campus?",
+    "Tell me where the college is located",
+    "How do I find the NovaTech campus?",
+    "Where is NovaTech situated?",
+    "Where is the NovaTech campus?",
+    "Tell me the college address",
+    "Give me the address of the college",
+    "Where is the college campus?",
+    "Which area is NovaTech located in?",
+    "Which part of Bengaluru is NovaTech in?",
+    "Is NovaTech located in Bengaluru?",
+    "Where exactly is the NovaTech campus?",
+    "How can I find the NovaTech campus?",
+    "What is the campus location?",
+    "Where is the institute situated?",
+    "Can you tell me where NovaTech is?",
+    "What is the physical address of NovaTech?",
+    "Where should I go to reach NovaTech?",
+    "Tell me the location of the college"
+      ],
+      "responses": [
+        "NovaTech Institute of Technology is located at 42 Innovation Road, Whitefield, Bengaluru, Karnataka.",
+        "The NovaTech campus is at 42 Innovation Road in Whitefield, Bengaluru.",
+        "Our campus address is 42 Innovation Road, Whitefield, Bengaluru, Karnataka."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What events are organized at NovaTech?",
+        "What college events are conducted?",
+        "Are there any upcoming events at NovaTech?",
+        "Tell me about upcoming college events",
+        "When is the next college fest?",
+        "Does NovaTech organize a college fest?",
+        "When is NovaFest conducted?",
+        "What is NovaFest?",
+        "Tell me about NovaFest",
+        "What is NovaFest?",
+        "Tell me about the NovaFest event",
+        "What happens at NovaFest?",
+        "When is NovaFest?",
+        "What activities are part of NovaFest?",
+        "Does NovaTech have an annual fest?",
+        "Tell me about the annual college fest",
+        "What is the annual fest called?",
+        "Is NovaFest conducted every year?",
+        "Does the college organize technical events?",
+        "Does NovaTech conduct coding competitions?",
+        "Are coding competitions held at the college?",
+        "Are there technical workshops for students?",
+        "Does the college conduct technical workshops?",
+        "Are cultural events held at NovaTech?",
+        "Does NovaTech organize cultural programs?",
+        "Are sports events organized by the college?",
+        "What extracurricular events are conducted?",
+        "What student activities are organized by the college?",
+        "How can students participate in college events?",
+        "Where can I find announcements about college events?"
+      ],
+      "responses": [
+        "NovaTech organizes technical workshops, coding competitions, cultural events, sports activities, and an annual college fest.",
+        "Students can participate in coding contests, technical workshops, cultural programs, sports events, and the annual NovaFest.",
+        "The annual NovaFest is one of the major campus events, along with regular technical workshops, competitions, and student activities."
+      ]
+    }
+  ]
+}
